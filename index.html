@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Crayve</title>
+</head>
+<body>
+    <div class="body">
+        <div class="search-bar" id="search-bar">
+            <input type="text" id="search-value" placeholder="Search Glasses...."/>
+            <button class="search-btn"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="dropdown-window" id="dropdown-window">
+            <ul>
+                <li><a href="">ALL</a></li>
+                <li><a href="">NEW</a></li>
+                <li><a href="">LIQUID GLASSES</a></li>
+                <li><a href="">NEON GLASSES</a></li>
+                <li><a href="">WIRE GLASSES</a></li>
+                <li><a href="">GLOW IN THE DARK</a></li>
+                <li><a href="">ACCESSSORIES</a></li>
+                <li><a href="">CLEARANCE</a></li>
+            </ul>
+        </div>
+        <header>
+            <h1 class="side-name">CRAYVE</h1>
+            <div class="header-part">
+                <nav class="wrapper">
+                    <div class="logo">CRAYVE</div>
+                    <ul class="links">
+                        <li><a href="#">LIQUID GLASSES</a></li>
+                        <li><a href="#">NEON GLASSES</a></li>
+                        <li><a href="#">WIRE GLASSES</a></li>
+                        <li><a href="#">GLOW IN THE DARK</a></li>
+                    </ul>
+                    <ul class="cart-more">
+                        <li id="drop"><a href="#"><i class="fa-sharp fa-solid fa-bars "></i>MORE</a></li>
+                        <li><button class="search" id="search" ><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button></li>
+                        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>CART</a></li>
+                    </ul>
+                </nav>
+                <!-- End of desktop Navigation menu -->
+                <nav class="mobile-nav">
+                    <div class="logo">Crayve</div>
+                    <div class="menu-icon">
+                        <img src="./Assets/images/Hamburg.png" alt="hamburg"/>
+                    </div>
+                </nav>
+                <div class="mobile-menu-container">
+                    <div class="close-icon">
+                        <img src="./Assets/images/closebutton.png" alt="close">
+                    </div>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#" class="btn dark">Enroll Now</a></li>
+                    </ul>
+                </div>
+            </div>    
+            <!-- End of mobile navigation -->
+            
+            
+            <!-- Hero Section -->
+            <div class="hero-section wrapper">
+                <div class="first">
+                    <p>Explore the <span>New Glasses</span><br/>
+                        Glow in the dark.</p>
+                    <button class="btn shop-now">Shop Now</button>
+                </div>
+                <div class="second">
+                    <div class="left">
+                        <h1>LIGHT UP<br/>
+                            THE NIGHT</h1>
+                    </div>
+                    <div class="right">
+                        <button class="btn down-btn" onclick="scrollDown()"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <!-- Neon Glasses section -->
+        <section class="neon-glass wrapper">
+            <div class="heading">
+                <h2>Neon <span>Glasses</span></h2>
+                <button class="btn see-btn">See all</button>
+            </div>
+            <div class="glasses-cards">
+                <div class="card">
+                    <div class="image"><img src="./images/ghost-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Ghost</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 1,200</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image"><img src="./images/rush-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Rush</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 1,500</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image"><img src="./images/iconic-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Iconic</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 2,100</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-banner">
+                <div class="banner-content">
+                    <p><span>High-quality EL wire</span><br/>
+                        brings excellent visual effect and 
+                        longer continuous glow time at night.</p>
+                    <button class="btn">Shop Now</button>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Neon-glass section end -->
+    
+        <!-- trending-glass section end -->
+        <section class="trending-glass wrapper">
+            <div class="heading">
+                <h2>Trending <span>Glasses</span></h2>
+                <button class="btn see-btn">See all</button>
+            </div>
+            <div class="trending-glass-cards">
+                <div class="card">
+                    <div class="image"><img src="./images/ghost-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Ghost</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 1,200</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image"><img src="./images/rush-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Rush</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 1,500</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image"><img src="./images/iconic-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Iconic</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 2,100</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image"><img src="./images/ghost-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Ghost</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 1,200</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image"><img src="./images/rush-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Rush</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 1,500</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image"><img src="./images/iconic-glass.png" width="100%" alt=""></div>
+                    <div class="prod-content">
+                        <div class="details">
+                            <h3>Iconic</h3>
+                            <p>Best selling glass</p>
+                            <p>Rs. 2,100</p>
+                        </div>
+                        <div class="btns">
+                            <button class="btn buy">Buy</button>
+                            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Trending section end -->
+    
+        <!-- Ultimate section start -->
+        <section class="container experiences wrapper">
+            <div class="text">
+                <h2>ULTIMATE PARTYING <span>EXPERIENCE</span></h2>
+            </div>
+            <div class="image">
+                <div class="glass-banner">
+                    <div class="banner-content">
+                        <p>Setting the standard for
+                            <span>premium party glasses.</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="about-work wrapper">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crayve works tirelessly to create and develop the coolest, most innovative glasses in the galaxy. We take chances that other companies won’t in the pursuit of creating the best party glasses possible. We insist on using the best materials available to us, 'cost-cutting’ is not in our vocabulary.</p>
+            <button class="btn">About Us</button>
+        </div>
+        <div class="moving-text">
+            <h2 id="first-text">CRAYVE</h2>
+        </div>
+        
+        <!-- Elevate section start -->
+        <section class="container elevate wrapper">
+            <div class="image">
+                <div class="glass-banner">
+                    <div class="banner-content">
+                        <p>High-quality EL wire 
+                            brings excellent .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <h2>ELEVATE <span>HIGHER</span></h2>
+            </div>
+        </section>
+        <!-- Elevate section end -->
+    
+        <div class="moving-text ">
+            <h2 id="second-text">CRAYVE</h2>
+        </div>
+    
+        <!-- Features section start -->
+        <section class="features wrapper">
+            <div class="feature-card">
+                <div class="image"><img src="./images/shipping.png" width="100%" h alt=""></div>
+                <h3>Fast and Free Shipping</h3>
+                <p>We process all orders within 24-48 hours and offer free shipping on all domestic orders over ₹999.</p>
+            </div>
+            <div class="feature-card">
+                <div class="image"><img src="./images/payment.webp" width="100%" alt=""></div>
+                <h3>Flexible Payment Options</h3>
+                <p>We accept as many payment options as possible, including Visa, MasterCard, Amex, Rupay & Upi.</p>
+            </div>
+            <div class="feature-card">
+                <div class="image"><img src="./images/reward.webp" width="100%"  alt=""></div>
+                <h3>Rewards Program</h3>
+                <p>With more ways to unlock exciting perks, this is your all access pass to exclusive rewards.</p>
+            </div>
+            <div class="feature-card">
+                <div class="image"><img src="./images/service.webp" width="100%" alt=""></div>
+                <h3>Award Winning Customer Service</h3>
+                <p>Customers can reach award winning customer service agents by phone or email.</p>
+            </div>
+        </section>
+        <!-- Features section end -->
+    
+        <!-- Contact section start -->
+        <section class="contact">
+            <div class="contact-container wrapper">
+                <div class="content">
+                    <h2>NEWSLETTER</h2>
+                    <p>Gain access to exclusive crayve offers, discounts, product launches, and more.</p>
+                    <input type="text" id="email" placeholder="name@mail.com">
+                    <input type="submit" placeholder="Subscribe"/>
+                </div>
+                <div class="image">
+                </div>
+            </div>
+        </section>
+        <!-- contact section end -->
+    
+        <!-- footer start-->
+        <footer class="wrapper">
+            <div class="heading">
+                <h2><span>CRAYVE</span></h2>
+            </div>
+            <div class="links-container">
+                <div class="links-column">
+                    <ul>
+                        <li><a href="">Liquid Glasses</a></li>
+                        <li><a href="">Neon Glasses</a></li>
+                        <li><a href="">Wire Glasses</a></li>
+                        <li><a href="">Glow In The Dark</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <ul>
+                        <li><a href="">Accessories</a></li>
+                        <li><a href="">Clearence</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Store Locator</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <ul>
+                        <li><a href="">Accessories</a></li>
+                        <li><a href="">Clearence</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Store Locator</a></li>
+                    </ul>
+                </div>
+                <div class="links-column">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot">
+                <hr width="100%">
+                <p>Designed by Deepwes Technologies </p>
+                <p>All rights are Reserved | @2018</p>
+            </div>
+        </footer>
+    </div>
+    
+    <div class="tunnel-body" id="tunnel-b">
+        <div class="tunnel">
+            <div class="frame" style="--i:1"></div>
+            <div class="frame" style="--i:2"></div>
+            <div class="frame" style="--i:3"></div>
+            <div class="frame" style="--i:4"></div>
+            <div class="frame" style="--i:5"></div>
+            <div class="frame" style="--i:6"></div>
+            <div class="frame" style="--i:7"></div>
+            <div class="frame" style="--i:8"></div>
+            <div class="frame" style="--i:9"></div>
+            <div class="frame" style="--i:10"></div>
+            <div class="frame" style="--i:11"></div>
+            <div class="frame" style="--i:12"></div>
+            <div class="frame" style="--i:13"></div>
+            <div class="frame" style="--i:14"></div>
+            <div class="frame" style="--i:15"></div>
+            <div class="frame" style="--i:16"></div>
+            <div class="frame" style="--i:17"></div>
+            <div class="frame" style="--i:18"></div>
+            <div class="frame" style="--i:19"></div>
+            <div class="frame" style="--i:20"></div>
+            <div class="frame" style="--i:21"></div>
+            <div class="frame" style="--i:22"></div>
+            <div class="frame" style="--i:23"></div>
+            <div class="frame" style="--i:24"></div>
+            <div class="frame" style="--i:25"></div>
+            <div class="frame" style="--i:26"></div>
+            <div class="frame" style="--i:27"></div>
+            <div class="frame" style="--i:28"></div>
+            <div class="frame" style="--i:29"></div>
+            <div class="frame" style="--i:30"></div>
+          </div>
+    </div> 
+   
+
+    <!-- footer end-->
+    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
