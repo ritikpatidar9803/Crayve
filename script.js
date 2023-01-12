@@ -82,11 +82,11 @@ dropWindow.onmouseleave = function() {
     dropWindow.style.display = "none";
 }
 
-let tunnel = document.getElementById('tunnel-b');
+// let tunnel = document.getElementById('tunnel-b');
 
-window.onscroll = function() {
-  tunnel.style.display = "flex";
-  setTimeout(function () {
-    tunnel.style.display = "none";
-  }, 500);
-}
+// window.onscroll = function() {
+//   tunnel.style.display = "flex";
+//   setTimeout(function () {
+//     tunnel.style.display = "none";
+//   }, 500);
+// }

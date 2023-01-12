@@ -60,7 +60,8 @@ html{
     border: 0;
     transform: scale(1.1);
 }
-.tunnel-body{
+/* tunnel */
+/* .tunnel-body{
     height: 100vh;
     width:100vw;
     display: none;
@@ -103,7 +104,7 @@ html{
     to {
       transform: perspective(1000px) translateZ(1000px) rotate(180deg);
     }
-  }
+  } */
 
 /* Common */
 .heading{
